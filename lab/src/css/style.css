@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Products {
+  padding: 2rem 0;
+}
+#Products .container .row {
+  row-gap: 20px;
+}
+#Products .container .row .custom-box .custom-card {
+  position: relative;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+#Products .container .row .custom-box .custom-card .overlay {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  padding: 0 10px;
+}
+#Products .container .row .custom-box .custom-card .overlay .addtobasket {
+  border: 0;
+  background: 0;
+  outline: 0;
+  padding: 5px;
+}
+#Products .container .row .custom-box .custom-card .overlay .addtobasket i {
+  pointer-events: none;
+  font-size: 20px;
+  color: rgb(66, 163, 63);
+}
+#Products .container .row .custom-box .custom-card .img-div {
+  width: 100%;
+}
+#Products .container .row .custom-box .custom-card .img-div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Products .container .row .custom-box .custom-card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#Products .container .row .custom-box .custom-card .content .title {
+  font-size: 18px;
+}
+#Products .container .row .custom-box .custom-card .content .price {
+  font-size: 20px;
+}
+
+#Basket {
+  padding: 2rem 0;
+}
+#Basket .container .row .basket-products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#Basket .container .row .basket-products .custom-card {
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Basket .container .row .basket-products .custom-card .img-div {
+  width: 80px;
+}
+#Basket .container .row .basket-products .custom-card .img-div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#Basket .container .row .basket-products .custom-card .content .title {
+  font-size: 16px;
+}
+#Basket .container .row .basket-products .custom-card .content .price {
+  font-size: 18px;
+}
+#Basket .container .row .basket-products .custom-card .count-controller {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#Basket .container .row .basket-products .custom-card .count-controller button {
+  border-radius: 50%;
+  background: 0;
+  border: none;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+#Basket .container .row .basket-products .custom-card .count-controller button i {
+  font-size: 18px;
+}
+#Basket .container .row .basket-products .custom-card .count-controller .item-count {
+  font-size: 18px;
+}
+#Basket .container .row .overall .all-div h3 {
+  font-size: 18px;
+}
+#Basket .container .row .overall .all-div h3 #totalbasketcount,
+#Basket .container .row .overall .all-div h3 #totalbasketprice {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
